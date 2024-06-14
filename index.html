@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Senabre Martínez - Personal WebPage</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <header>
+        <h1>Carlos Senabre Martínez</h1>
+        <nav>
+            <a href="#bio">Biography</a>
+            <a href="#Hobbies">Hobbies</a>
+            <a href="#Turtle">My Turtle</a>
+            
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>Biography</h2>
+            <img src="P6019098.JPG" alt="Photo">
+            <p>Hi, I'm Carlos Senabre Martínez, a 23 year old student who is finishing his university degree.</p>
+            <p>I was born in Yecla, a small town in the autonomous region of Murcia. When I was about 5 years old I moved to Toledo and since then I live there. </p>            
+            <p>I studied primary, secondary and baccalaureate education at the Nuestra Señora de los Infantes Educational center.</p>
+            <p>At the end of the EVAU, I opted for the university degree that I am still studying, Industrial and Automatic Electronics, and that I will finish the following academic year with total certainty.</p>
+        </section>
+
+
+
+
+    <section id="Hobbies" class="Hobbies">
+        <h2>Hobbies</h2>
+        
+        <nav>
+            <button onclick="location.href='#proyecto1'">SPORTS</button>
+            <button onclick="location.href='#proyecto2'">FILMS AND TV SERIES</button>
+            <button onclick="location.href='#proyecto3'">VIDEOGAMES</button>
+            
+        </nav>
+
+    
+
+        <ul id="Hobbies" class="Hobbies">
+
+                <ul id="proyecto1" class="proyecto1">
+                    <h3 class="proyecto1">SPORTS</h3>
+
+                    <div id="proyecto1-content" style="display: none;">
+                        <li><u>Football</u></li>
+                        <p> This Erasmus year we got together with some students, usually Spanish and Turkish, to play on the courts of Toyota Park.
+                            We rented the courts and competed against each other. Sometimes we played only between Spaniards and that led to the creation of two teams. 
+                            The following video is a pre-match greeting between two Spanish teams. I am from the white team.</p>
+
+                        <video width="600" controls>
+                            <source src="MantasFC.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+
+                        <li><u>Futsal</u></li>
+                        <p>This sport is the one I have played the longest.</p>
+                        <p>When I started playing several years ago, I played as a defender. However, I didn't really like it and to make matters worse the goalkeeper in my team was very bad. I decided to start playing in goal and as I got older, I developed my skills, to the point where at the age of 15-16 I was promoted from time to time with the senior team. Later, in the youth leagues my team was promoted to the División de Honor, a league in which the best teams from all over Spain participated. Sadly, due to the Coronavirus pandemic, all football leagues were cancelled and since then I have not played futsal again.</p>
+                        <div class="contenedor-imagenes">
+                            <img src="yo.jpg" alt="Photo" height="450" width="450">
+                            <img src="CDT.jpeg" alt="Photo" height="450" width="350">
+                        </div>
+
+                        <li><u>Bowling</u></li>
+                        <p>Once every 3 weeks we get together as a group of friends to compete against each other. We usually don't have any skills, which makes the games more exciting. Who will be the one to win this time? It could be anyone, literally. </p>
+                        <img src="BOWLING_ABADIA" alt="Photo" height="450" width="550">
+                        <p>Unfortunately, as we put all our concentration on trying not to come last in the ranking I have no pictures of us playing, but I can show the place where we usually play...</p>
+                    
+                    
+                        <li><u>Chess</u></li>
+                        <p>Since I was very young I played with my father. He always lost again and again, until I started to learn about openings, tactics, endgames and other chess concepts through the internet, i.e. forums and youtube channels. Now I'm the one who beats him and since then he doesn't want to play so much.</p>
+                        <p>Currently, I play through the website <a href="https://www.chess.com/home" target="_blank">Chess.com</a> because it is one of the most enjoyable for me to play. However,<a href="https://lichess.org/" target="_blank">Lichess</a> is very interesting for "training" because of its large number of forums and information shared by all its users.</p> 
+                            <div class="contenedor-imagenes">
+                                <img src="CHESS.jpg" alt="Photo" height="450" width="600">
+                                <img src="LICHESS1.png" alt="Photo" height="450" width="600">
+                            </div>
+
+                    </div>
+                    
+                </ul>
+                <button  id="boton-mostrarContenido" onclick="toggleContent('proyecto1-content')">Show content / Hide content</button>
+
+
+                <ul id="proyecto2" class="proyecto2">
+
+
+                    <h3 class="proyecto2">FILMS AND TV SERIES</h3>
+                    <div id="proyecto2-content" style="display: none;">
+
+
+                        <h4>FILMS</h4>
+
+                        <li><u>Indiana Jones</u></li>
+                        <p>All the films, at least up to the third one, I think are very cool. The Crystal Skull is not bad, but we also came from the Last Crusade. I have yet to see the fifth film. Highly recommended for everyone.</p>
+                        
+                        <img src="IJ.webp" alt="Photo" height="450" width="700">
+                        
+                        <li><u>Transformers</u></li>
+                        <p>Let's not kid ourselves, nobody knows what the plot of any of his films is. However, it's really cool to see giant robots fighting each other without worrying about the plot. Absolutely recommended. </p>
+                        <img src="TRANSFORMERS.jpg" alt="Photo" height="450" width="700"> 
+                        
+                        <li><u>Torrente</u></li>
+                        <p>The only Spanish saga on the list. You have to have a good stomach to watch these 5 films. I have no idea if there is any version translated into any language other than Spanish. It IS a Spanish satire about a very particular stereotype of a person in Spain, of course exaggerated to the nth degree. Not for all audiences, and even less so as a foreigner, as I think most of the jokes would be lost in translation. Even so, I can assure you that it is quite an experience. </p>
+                        <img src="TORRENTE.jpg" alt="Photo" height="450" width="600"> 
+                        
+                        <li><u>Alien</u></li>
+                        <p>Very good saga in general. Highly recommended for anyone. I still remember the play station 1 game with fear.</p>
+                        <img src="ALIEN.jpeg" alt="Photo" height="400" width="250"> 
+
+                        <li><u>Saw</u></li>
+                        <p>I quite liked the saga. I saw the last film not long ago. Recommended for anyone looking for a gore experience.</p>
+                        <img src="SAW.jpeg" alt="Photo" height="400" width="250"> 
+
+                        <li><u>Predator</u></li>
+                        <p>A classic action movie. The third film was the one I liked the most.</p>
+                        <img src="PREDATOR.jpeg" alt="Photo" height="350" width="350"> 
+
+                        <li><u>Tarantino's filmography</u></li>
+                        <p> One day I felt like watching all of his films and so far I've already seen: Reservoir Dogs, Pulp Fiction, Jackie Brown and Kill Bill 1 and 2. My favourites at the moment are between Pulp Fiction and Kill Bill 1.</p>
+                        <img src="PFKB.jpeg" alt="Photo" height="250" width="500"> 
+
+
+                        <h4>SERIES</h4>
+                        
+
+                        <p>Apart from films I watch some series. During this Erasmus I have watched the following series:</p>
+
+                        
+                        <li><u>Arrested Development</u></li>
+
+                        <p>I never heard of it before I saw it.  Definitely recommended, very very funny </p>
+                        <img src="AD.png" alt="Photo" height="450" width="700">
+
+                        <li><u>Family Guy</u></li>
+                        <p>It is often said that it ends up being repetitive and becomes simple. I agree, but I watched it back to back in 2 months and still found it funny. I hate Brayan</p>
+                        <img src="FG.jpeg" alt="Photo" height="350" width="200">
+
+                        <li><u>Fargo</u></li>
+                        <p>I didn't find out Fargo was a US city until season 3. It was good overall although there were quite a few things I didn't quite like</p>
+                        <img src="FARGO.jpg" alt="Photo" height="450" width="325">
+
+                        <li><u>South Park</u></li>
+                        <p>Very funny, the best animation for my taste.</p>
+                        <img src="SP.jpeg" alt="Photo" height="350" width="500">
+
+                        <li><u>Shogun</u></li>
+                        <p>Very interesting, I have 3 chapters and I'm hooked.</p>
+                        <img src="SHOGUN.jpeg" alt="Photo" height="350" width="500">
+                    </div>
+                
+                </ul>
+                <button  id="boton-mostrarContenido" onclick="toggleContent('proyecto2-content')">Show content / Hide content</button>
+
+
+                <ul id="proyecto3" class="proyecto3">
+
+                    <h3 class="proyecto3">VIDEOGAMES</h3>
+                    <div id="proyecto3-content" style="display: none;">
+
+                        <p>One of my hobbies that I enjoy the most is video games. My favorite genres are the following: </p>
+                        <h4>Roguelike</h4>
+
+                        <p>Imagine you are playing a video game where every time you enter, the world changes and is never the same.That's basically a roguelike.In these games, the map, enemies, objects and everything else are randomly generated every time you play, so there's always something new to discover.</p>
+
+                        <li><u>Enter The Gungeon</u></li>
+                        <p>My first time with a roguelike. It's a game where absolutely everything is a weapon. The enemies are guns, the bosses are guns, the dungeon floors are guns and the elevator with which you descend floors is a giant bullet, sometimes even your guns shoot other guns. Very fun and many challenges to complete.</p>
+
+                        <div class="contenedor-imagenes">
+                            <img src="ETG.jpeg" alt="Photo" height="450" width="600">
+                            <img src="ETG1.jpg" alt="Photo" height="450" width="600">
+                        </div>
+                        
+
+
+                        <li><u>Crypt of the Necrodancer</u></li>
+                        <p>Game that mixes roguelike with rhythm. In this game both your character and the enemies by the squares on the floor depending on the rhythm of the song. The previous game was weapons themed, this one is music themed. All objects are references to musical terms, instruments and the like. </p>
+                        <div class="contenedor-imagenes">
+                            <img src="COTN.jpg" alt="Photo" height="450" width="600">
+                            <img src="COTN1.jpg" alt="Photo" height="450" width="600">
+                        </div>
+
+
+                        <p>There are a lot of characters that expand the gameplay with unique abilities and handicaps. Not to mention the extra DLCs that add even more characters. I think it is the most difficult to master in this genre of video games.</p>
+                        
+                        <li><u>The Binding of Isaac</u></li>
+                        <p>This game was given to me by some friends for my birthday. The game is about Isaac, a boy whose mother wants to murder him because God tells him so while she watches TV. Isaac escapes from the mother to the basement where he has to face a bunch of pretty creepy enemies collecting all the objects that will help him.</p>
+                        <div class="contenedor-imagenes">
+                            <img src="TBOI.jpg" alt="Photo" height="450" width="600">
+                            <img src="TBOI1.jpg" alt="Photo" height="450" width="600">
+                        </div>
+                        <p>It has a unique art style, you could say it's ugly, however it suits him very well.</p>
+
+
+                        <h4>Rythm</h4>
+                        <p>These are games whose main mechanics revolve around the music of the game. They are usually the games that require the highest precision of inputs </p>
+                        
+                        
+                        <li><u>OSU!</u></li>
+                        <p>Osu! is a musical rhythm game where you click, swipe and hold circles on the screen following the rhythm of a song. You can play different modes, such as standard, Taiko, Catch the Beat and Mania, each with its own mechanics. The goal is to be as accurate as possible, improving your scores and competing against other players. With a wide variety of songs and difficulty levels, along with community-created content, Osu! is an addictive challenge for rhythm game lovers.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oI6X1pDMNlg?si=kydbIN5F_JkG8Q1C&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                        <li><u>A Dance of Fire and Ice</u></li>
+                        <p>A game that you can play with just one key, you only have to worry about pressing it when you have to. A very unique game and a pleasant surprise when I discovered it.</p>
+                        <div class="contenedor-imagenes">
+                            <img src="ADOFAI.jpg" alt="Photo" height="450" width="600">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bqj-tnv5K2c?si=z_1Aff0_cU8c6p8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        
+                        
+                        <h4>Platforms</h4>
+                        <li><u>Celeste</u></li>
+                        <p>One of the best platform games out there. It's about a girl who climbs a mountain. Simple, but it's a perfect game. Level design, music, art style, challenges, unique secrets. Definitely one of my favorites.</p>
+                        <div class="contenedor-imagenes">
+                            <img src="CELESTE.avif" alt="Photo" height="450" width="600">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/70d9irlxiB4?si=eg4uvaMF5YhJ8f6x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        
+                        <li><u>Duck Game</u></li>
+                        <p>A pure fun game to play with up to 3 other friends. Each player controls a duck and you have to pick up weapons and turn the other players into a roast duck. Very fun, but it gets on my nerves.</p>
+                        <div class="contenedor-imagenes">
+                            <img src="DG.avif" alt="Photo" height="450" width="600">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jiSMnQUhLA0?si=MQ3rJri-fJQQ9JHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+
+                        <h4>Action</h4>
+
+                        <li><u>Monster Hunter</u></li>
+                        <p>In this Capcom game, players assume the role of a hunter whose purpose is to protect a village or help investigate the large monsters that roam the various areas near the village</p>                        
+                        <p>Good news for fans of this saga as a new installment of the game is planned for 2025.</p>
+                       
+                        <div class="contenedor-imagenes">
+                            <img src="MHW.avif" alt="Photo" height="450" width="600">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zyoBA0aCRNk?si=YVZCLlZbSax2hJDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                    
+                        <li><u>War Thunder</u></li>
+                        <p>It is a combat game of land, sea and air military vehicles used in World War II and the Korean War. </p>
+                        <p>This Gaijin game has something very curious. Every so often, and usually after new vehicles or balance changes are added, a user of the game appears with classified military documents complaining to Gaijin because the turret rotation speed of the LeClerc tank is not X but Y or that the radar of the Shenyang J8-B fighter is not what they have put in the game. The following link has a small list of some of these leaks:  <a href="https://steamcommunity.com/sharedfiles/filedetails/?l=polish&id=2924096000" target="_blank">War Thunder Leaks</a></p>
+                        
+                        <div class="contenedor-imagenes">
+                            <img src="WT.webp" alt="Photo" height="450" width="600">
+                            <img src="WT1.png" alt="Photo" height="450" width="600">
+                        </div>
+
+                        <li><u>Mordhau</u></li>
+                        <p>It is a multiplayer hack and slash video game set in the Middle Ages, where you equip a sword, mace, bow and other medieval weapons offered by the game to fight in battles of up to 64 players. Very epic to see someone running around the battlefield playing a lute and subsequently using it to enter into a duel with a soldier in armor</p>                       
+                        
+                        <div class="contenedor-imagenes">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NQ_F1BtscWk?si=qol2ShakAaRoDkR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                    </div>
+                    
+                </ul>
+                <button  id="boton-mostrarContenido" onclick="toggleContent('proyecto3-content')">Show content / Hide content</button>
+            </ul>
+        </section>
+
+        <section id="Turtle" class="Turtle">
+            <h2>My Turtle</h2>   
+            <p> This turtle was a birthday present 3 years ago. Two friends of mine showed up at my house on my birthday with a baby turtle and a turtle tank. Since then he lives in my room inside a big plastic container with his rocks and a small float. Sometimes she gets out of the box because I overfill the water container and find her tucked under my bed or turned upside down. She doesn't have a name, she's so epic she doesn't need one.</p>
+            <p> She is currently taken care of by my grandparents because my father viciously boxed her up for them. From time to time they send me a picture of her and I see her getting bigger and bigger. I'm afraid to come back and find a dragon.</p>
+            <div class="contenedor-imagenes">
+                <img src="Tortu2.jpg" alt="Photo" height="450" width="350">
+                <img src="Tortu1.jpg" alt="Photo" height="450" width="600">
+            </div>
+
+        </section>
+        
+
+    </div>
+  
+    <div class="container">
+
+        <h2>Gratefullness</h2>
+        <p>Now that we are coming to the end, and on recent advice, I would like to thank you for visiting my website. I hope you have a good summer</p>
+    
+    </div>
+    <nav>
+        <button onclick="location.href='#bio'">Where all started</button>
+
+    </nav>
+  
+  
+    <footer>
+        <p>&copy; 2024 Carlos Senabre Martínez</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/carlos-senabre-mart%C3%ADnez-7b9a06310/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/s3n4_13" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/s3na_13/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+    <script src="Javi.js"></script>
+</body>
+</html>
+

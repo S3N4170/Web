@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+nav {
+    text-align: center;
+    margin: 1em 0;
+}
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #d1e9ff;
+}
+.contenedor-imagenes {
+    display: flex;
+}
+.contenedor-imagenes img {
+    margin-right: 50px;
+}
+
+nav .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: none;
+        margin: 0.5em 0;
+    }
+    nav .menu-toggle {
+        display: block;
+    }
+    nav.show-menu a {
+        display: block;
+    }
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+    
+}
+.bio, .Hobbies, .Turtle {
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.bio:hover, .Hobbies:hover, .Turtle:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+.bio img {
+    max-width: 200px;
+    border-radius: 70%;
+    display: block;
+    margin: 0 auto 1em;
+}
+.Hobbies .filters {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.Hobbies .filters button {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.Hobbies .filters button:hover {
+    background-color: #0056b3;
+}
+.Hobbies-items {
+    list-style: none;
+    padding: 0;
+}
+.Hobbies-items li {
+    padding: 1em;
+    background-color: #f9f9f9;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+/* Estilo específico para el botón de inicio */ 
+#boton-mostrarContenido { 
+    background: #008CBA; /* Cambia el color de fondo */ 
+    color: white; /* Cambia el color del texto */ 
+    font-weight: bold; /* Hace el texto en negrita */ 
+    border-radius: 12px; /* Añade bordes redondeados */ 
+    border: 2px solid #007B9E; /* Añade un borde */ 
+} 
+#boton-mostrarContenido:hover { 
+    background: #007B9E; /* Cambia el color de fondo al pasar el ratón */ 
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #007BFF;
+    color: white;
+}
+.social-links a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #d1e9ff;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+p {
+    text-align: justify;
+  }
